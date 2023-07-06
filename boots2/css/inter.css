@@ -1,0 +1,324 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.list{
+    background-color: black;
+}
+.cl{
+    color: white;
+}
+.box{
+    float:right;
+}
+.cont1{
+    width:100%;
+    height:700px;
+    object-fit:fill;
+    background-repeat: no-repeat;
+    background-position:100%;
+}
+.cont{
+    width:100%;
+}
+.imag1{
+    width: 100%;
+    height: 665px;
+}
+.pad{
+    width:170px;
+    height:50px;
+}
+.pd{
+    padding:10px 2px;
+}
+
+.card-text a{
+    color: black;
+}
+.btn-primary a:hover{
+    background-color: black;
+}
+.btp{
+    background-color: rgb(245, 84, 15); 
+    border:rgb(245, 84, 15); 
+    width:200px; 
+    height: 50px;
+    border-radius:30px;
+    font-weight:bold; 
+    padding-top:12px;
+}
+
+.btp:hover{
+    background-color:black;
+}
+
+.c-body{
+    text-align:left; 
+}
+
+.card-d{
+    width:350px !important;
+    height: 500px !important;
+    top: 50px;
+    right:20px;
+    position:absolute;
+}
+
+.c-title{
+    font-size:40px;
+}
+
+.c-text{
+    font-size:20px;
+}
+
+.row-1{
+    padding-top:30px;
+    font-size:20px;
+}
+
+.boxes{
+    width:100%;
+    height:580px;
+    background-color:rgb(245, 84, 15);
+    color:white; 
+}
+.row-a{
+    padding-top:60px;
+    font-size:40px;
+    font-weight:bold;
+}
+.row-b{
+    font-size:24px;
+    padding:5px 32px;
+}
+
+.imag{
+    width:300px;
+    height:300px;
+    padding-top:35px;
+}
+
+.row-d{
+    margin-top:30px;
+    color:black;
+    font-style:italic;
+}
+
+.row-d a{
+    color:black;
+    font-weight:bold;
+}
+
+.row-e{
+    margin-top:40px;
+    margin-left:40%;
+}
+.cont2{
+    margin-top:500px;
+}
+
+.wspace{
+    width:100%;
+    min-height:1700px;
+}
+
+.imag2{
+    width:300px;
+    height:300px;
+}
+.cont3{
+    width:100%;
+}
+
+.row-f
+{
+    padding-top:60px;
+    font-size:40px;
+    font-weight:bold;
+}
+.row-g{
+    font-size:18px;
+    padding:5px 32px;
+    width: 100%;
+    margin-bottom:30px;
+}
+.col1{
+    padding-left: 10px;
+    padding-right:10px;
+    
+}
+.row-h{
+    margin-left: 60px;
+}
+
+div.polaroid {
+    width: 250px;
+
+    margin-left:60px;
+}
+
+div.container-1{
+    padding: 10px;
+    text-align:center;
+}
+
+.titl{
+    color: rgb(150, 148, 148);
+    font-size: 22px;
+    font-weight: bold;
+}
+.aven{
+    font-size:24px;
+}
+.text{
+    font-size:17px;
+    margin-bottom:50px;
+
+}
+.cont3{
+    padding-top:70px;
+    height:650px;
+    background-color:rgb(228, 95, 47);
+}
+.box1{
+    padding-top: 50px;
+    padding-left:50px;   
+    height: 350px;
+    background-color: white;
+    padding-bottom:50px;
+}
+.box2{
+    padding-top:50px;
+    height:250px;
+    color: white;
+}
+.row-i{
+    font-size: 40px;
+    font-weight:bold;
+}
+.row-j{
+    font-size:40px;
+}
+.row-k{
+    font-size: 20px;
+    font-weight:bold;
+}
+.row-k.p::before{
+    content: url(./../images/map.png);
+}
+.cols{
+    padding-left:50px;
+}
+.btp-email{
+    background-color: rgb(156, 151, 149); 
+    border: rgb(156, 151, 149); 
+    color:black;
+    width:50%; 
+    height: 50px;
+    border-radius:30px; 
+    padding-top:12px;
+    margin-right:20px;
+}
+.imag3{
+    width: 30px;
+    height: 30px;
+}
+
+
+@media screen and (min-width:576px){
+    .card-d{
+        width:400px !important;
+        right:50px;
+    }
+    .c-title{
+        font-size:50px;
+    }
+    
+    .c-text{
+        font-size:22px;
+    }
+    .imag{
+        width:500px;
+        height: 500px;
+    }
+    .row-b{
+        padding-left:100px;
+        padding-right:100px;
+    }
+    .wspace{
+        width:100%;
+        min-height:2950px;
+    }
+    .row-g{
+        padding-left:100px;
+        padding-right:100px;
+    }
+    .imag2{
+        width:500px;
+        height:500px;
+    }
+    
+}
+
+@media screen and (min-width:768px){
+    .card-d{
+        width:500px !important;
+        right:100px;
+    }
+    .imag{
+        width:350px;
+        height:350px;
+    }
+    .boxes{
+        height:500px;
+    }
+    .wspace{
+        width:100%;
+        min-height:1050px;
+    }
+    .imag2{
+        width:350px;
+        height:350px;
+    }
+    div.polaroid{
+        margin-left:0px;
+    }
+    
+}
+
+@media screen and (min-width:992px){
+    .imag{
+        width:300px;
+        height:300px;
+    }
+    .wspace{
+        width:100%;
+        min-height:250px;
+    }
+    .imag2{
+        width:250px;
+        height:250px;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .imag{
+        width:350px;
+        height:350px;
+    }
+    .wspace{
+        width:100%;
+        min-height:650px;
+    }
+    .imag{
+        width:300px;
+        height:300px;
+    }
+    .imag2{
+        width:250px;
+        height:250px;
+    }
+}
